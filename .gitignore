@@ -15,3 +15,7 @@ docs/architecture/vertical-extensions.md
 # Local Datacore installation state — references personal install paths
 # (e.g. 5-plur/, 0-personal/). Belongs to the user's machine, not this repo.
 .datacore/state/
+
+# Runtime engram store — must not be published (contains infra/deployment context)
+# Scrubbed from history 2026-06-03 after Crt's leak review (67 engrams, 3 prod IPs, basic-auth creds)
+.plur/
